@@ -1,0 +1,102 @@
+#left {
+    display: none ; /* Hide the left section */
+  }
+  
+  #right {
+    width: 100% ;
+    height: 100vh ;
+    padding: 1.5rem ;
+    background-color: #f1dbdb;
+  }
+  
+  #contact-heading {
+    font-size: 2rem ;
+    text-align: center;
+    position: relative;
+    right: 20px;
+  }
+  
+  #down-arrow {
+    width: 100px ;
+    margin: 0 auto ;
+    display: none;
+  }
+  
+  #contact-subtext {
+    font-size: 1rem ;
+    text-align: center;
+    display: block;
+    left: -10px;
+    /* position: relative; */
+  }
+  
+  #form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #name-label,
+  #email-label {
+    margin: 0.5rem 0 ;
+    display: block;
+  }
+  #name-label{
+    position: relative;
+    top: 240px;
+    right: 45px;
+  }
+  #email-label{
+    position: relative;
+    top: 80px;
+    right: 86px;
+  }
+  
+  #input-wrapper {
+    flex-direction: column ;
+    width: 100% ;
+    gap: 1rem ;
+  }
+  
+  #name-input-box,
+  #email-input-box {
+    width:100% ;
+  }
+  #email-input-box{
+    position: relative;
+    top: -20px;
+  }
+  #name-input-box{
+    position: relative;
+    top: 170px;
+  }
+  #name-input,
+  #email-input {
+    width: 100% ;
+  }
+  #message-label{
+    position: relative;
+    top: 100px;
+    left: 20px;
+  }
+  #message-wrapper {
+    width: 100% ;
+  }
+  
+  #message-textarea {
+    height: 150px ;
+    position: relative;
+    top: 100px;
+  }
+  
+  #submit-btn {
+    width: 100% ;
+    position: relative;
+    top: 100px;
+  }
+  
+  #close-btn {
+    color: black;
+    top: -8px;
+    right: -15px
+  }
