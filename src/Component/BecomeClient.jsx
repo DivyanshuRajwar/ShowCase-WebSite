@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css"; // Import toastify styles
+import "react-toastify/dist/ReactToastify.css"; 
 import logo from "../assets/logo.png";
 import downArrow from "../assets/downArrow.png";
 import "../App.css";
