@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import UiUx from "../assets/uiux.png";
 import Ecommerce from "../assets/Ecommerce.jpg";
 import Shopify from "../assets/shopify.webp";
-import Restro from "../assets/Restaurant.png";
+import Restro from "../assets/restaurant.png";
 import Ai from "../assets/ai.avif";
 import BecomeClient from "./BecomeClient";
 
