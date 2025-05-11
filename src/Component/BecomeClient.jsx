@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; 
-import logo from "../assets/logo.png";
 import downArrow from "../assets/downArrow.png";
 import "../App.css";
 
@@ -23,12 +22,7 @@ const BecomeClient = ({ setOverlay }) => {
       {/* Left Section */}
       <div className="w-1/2 h-screen bg-[#f1dbdbea] flex flex-col gap-2 justify-center items-center">
         <div className="w-[70%] relative h-[400px] flex">
-          <img
-            src={logo}
-            alt="Logo"
-            loading="lazy"
-            className="w-[200px] h-[300px]"
-          />
+          
           <span className="mt-52 text-[50px] font-extrabold font-serif">
             ZyrixCraft
           </span>
